@@ -1,0 +1,21 @@
+{
+  "homepage" : "https://sinwindisG.github.io/wedding/",
+  "name": "wedding",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "gh-pages": "^5.0.0",
+    "vite": "^4.3.9"
+  }
+}

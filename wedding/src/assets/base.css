@@ -1,0 +1,44 @@
+/* semantic color variables for this project */
+:root {
+  --color-background: #96bc7f;
+  /*--color-text: #5e3b2f;*/
+  --color-text: #ffffff;
+  /*--color-text-alpha: 94, 59, 47;*/
+  --color-text-alpha: 255, 255, 255;
+  --color-card-border: 255, 255, 255;
+  --color-calendar-circle: 246, 206, 108;
+  --color-calendar-holiday: #fcb8b8e1;
+  --section-gap: 160px;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: 'Dovemayo_gothic'; /* Dovemayo_gothic, HakgyoansimGeurimilgiTTF-R, IM_Hyemin-Bold */
+  /* font-family: 'UhBeeKang-Ja'; */
+  /* font-family: 'MangoDdobak-B'; */
+  /* font-family: 'UhBeecharming'; */
+  /* font-family: 'UhBeeSe_hyun'; */
+  /* font-family: 'IM_Hyemin-Bold'; */
+  /* font-family: 'HakgyoansimGeurimilgiTTF-R'; */
+  /* font-family: 'Ownglyph_ParkDaHyun'; */
+  /* font-family: 'HakgyoansimDunggeunmisoTTF-B'; */
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5 {
+  color: var(--color-text);
+}
+
+/* body { 
+  background-image: url('/img/main.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right; 
+} */
